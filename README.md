@@ -136,7 +136,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
         	-	**Postprocessing_U2AF1.ipynb**
         	-	**Generate_final_files.ipynb**
         	-	**FINAL_merge.ipynb**
-         	-```polN```, Generate pool of normals and excluding list.
+         	-	```polN```, Generate pool of normals and excluding list.
             		-	**poN.ipynb**
             		-	**poN_U2AF1.ipynb**
         - ```2_Mutation_overview```,
