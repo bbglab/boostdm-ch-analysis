@@ -121,7 +121,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
         		-	*Supplemental Figure S3B*
     - ```6-BoostDM_cancer_comparison```,
         -	**BoostDM-CH_cancer_comparison.ipynb**
-      		-	Figure 3*
+      		-	*Figure 3*
         	-	*Supplemental Figure S7*
         - 	```scripts```, Contain dependencies and functions needed for the plots in the folder
     - ```7-Expert_curated_rules_comparison```,
