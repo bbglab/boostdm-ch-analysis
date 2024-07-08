@@ -64,11 +64,11 @@ This repo contains the source code to reproduce the analysis and figures of the 
 ## Folders descriptions and allocation of jupyter-notebooks and figures:  
 - ```BoostDM_ch_analyses```, Contains all code to reproduce all analyses and figures 
     - ```1-Observed_mutations```, Observed mutations from the three training cohorts
-      **-Observed_mutations.ipynb**
-    *-Figure 1B*
-    *-Supplementary Figure S3*
-    *-Supplementary Figure S8B*
-        - ```scripts```, Contain dependencies and functions needed for the plots in the folder
+      		**-Observed_mutations.ipynb**
+    		*-Figure 1B*
+    		*-Supplementary Figure S3*
+    		*-Supplementary Figure S8B*
+        	- ```scripts```, Contain dependencies and functions needed for the plots in the folder
     - ```2-Blueprints```, 
     **Blueprint_models.ipynb**
     *- Figure 2A-B*
