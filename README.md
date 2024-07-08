@@ -125,9 +125,9 @@ This repo contains the source code to reproduce the analysis and figures of the 
         	-	*Supplemental Figure S7*
         - 	```scripts```, Contain dependencies and functions needed for the plots in the folder
     - ```7-Expert_curated_rules_comparison```,
-  	-	**Expert_curated_rules.ipynb**
+    	-	**Expert_curated_rules.ipynb**
     		-	*Supplemental Figure S7*
-    		-	*Supplemental Figure S20C*
+      		-	*Supplemental Figure S20C*
     	-	**False_positive.ipynb**, False positive mutations from Bick et. al.
     - ```8-UKB_variant_calling```, Variant calling pipeline.
     - ```9-UKB_analyses```,
@@ -143,7 +143,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
         	-	**Mut_overview.ipynb**
         		-	*Figure 4B*
         		-	*Supplemental Figure S8A*
-        		-	**MutSig.ipynb**
+        	-	**MutSig.ipynb**
         		-	*Supplemental Figure S8B*
         - ```3_Clinical_associations```,
         	-	**Mut_overview.ipynb**
