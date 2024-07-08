@@ -101,7 +101,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
         -	```DNMT3A```,
         	-	**DNMT3A_training_cohort.ipynb**
          		-	*Supplemental Figure S3A (left)*
-          	-	*Figure 1F*
+          		-	*Figure 1F*
            	-	**DNMT3A_JapaneseBiobank.ipynb**
             		-	*Supplemental Figure S3A (right)*
         -	```TP53```,
