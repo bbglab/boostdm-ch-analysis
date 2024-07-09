@@ -12,14 +12,10 @@ This repo contains the source code to reproduce the analysis and figures of the 
 ```
 - BoostDM_ch_analyses
 	| 1-Observed_mutations 
-	|	| - scripts
 	| 2-Blueprints  
-	|	| - scripts 
 	| 3-Discovery_index
-	|   | - scripts_di
-    	| 4-Benchmark
+	| 4-Benchmark
 	|   | - Other_cohort
-	|   | - Results_crossvalidation_50_iterations
    	| 5-Experimental_assays
 	|   | - DNMT3A
 	|   | - TP53
@@ -51,6 +47,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
 	|   | - prediction
 	|   | - splitcv_meta/CH
 	|   | - training_meta/CH
+	|   | - Results_crossvalidation_50_iterations
 	| - Experimental_data
 	|   | - DNMT3A
 	|   | - TP53
@@ -68,17 +65,14 @@ This repo contains the source code to reproduce the analysis and figures of the 
      		- 	*Figure 1B*
       		- 	*Supplementary Figure S3*
       		- 	*Supplementary Figure S8B*
-      	- 	```scripts```, Contain dependencies and functions needed for the plots in the folder
     - ```2-Blueprints```,
     	-	**Blueprint_models.ipynb**
      		-	*Figure 2A-B*
       		-	*Figure 2C*
       		-	*Figure 1C*
-        - 	```scripts```, Contain dependencies and functions needed for the plots in the folder
     - ```3-Discovery_index```,
     	-	**Discovery_index.ipynb**
      		-	*Supplementary Figure S1*
-	-	```scripts_di```, Contain dependencies and functions needed for the plots in the folder
     - ```4-Benchmark```, Cross-validations...
     	-	**Cross-validation.ipynb**
      		-	*Figure 1C*
@@ -87,7 +81,6 @@ This repo contains the source code to reproduce the analysis and figures of the 
       		-	*Figure 1D*
       		-	*Figure 1B*
       		-	*Supplemental Figure S2A*
-      	-	**Generate-cross-validation-data.ipynb**
       	-	**Precision-recall.ipynb**
       		-	*Figure 1E*
       		-	*Supplemental Figure S2B*
