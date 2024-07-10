@@ -22,13 +22,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
     	| 6-BoostDM_cancer_comparison
 	|   | - scripts
     	| 7-Expert_curated_rules_comparison
-    	| 8-UKB_variant_calling
-	|   | - crams
-	|   | - part1
-	|   | - part2
-	|   | - refs
-	|   | - U2AF1
-    	| 9-UKB_analyses
+    	| 8-UKB_analyses
 	|   | 1_Post_processing_calling
 	|   |   | - polN
 	|   | 2_Mutation_overview
@@ -38,6 +32,12 @@ This repo contains the source code to reproduce the analysis and figures of the 
 	|   | 6-Fitness_analysis
 	|   | 7-New_exclusive_boostDM
 	| Clinical_phenotypes
+-UKB_variant_calling
+	| - crams
+	| - part1
+	| - part2
+	| - refs
+	| - U2AF1
 - Paper_data
 	| - BoostDM-cancer
 	| - BoostDM-CH
@@ -122,8 +122,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
     		-	*Supplemental Figure S7*
       		-	*Supplemental Figure S20C*
     	-	**False_positive.ipynb**, False positive mutations from Bick et. al.
-    - ```8-UKB_variant_calling```, Variant calling pipeline.
-    - ```9-UKB_analyses```,
+    - ```8-UKB_analyses```,
     	- ```1_Post_processing_calling```,
         	-	**Postprocessing.ipynb**
         	-	**Postprocessing_U2AF1.ipynb**
@@ -189,20 +188,6 @@ This repo contains the source code to reproduce the analysis and figures of the 
 
 ## Complementary content
 
-You can access to boostDM source code and documentation in the [boostDM pipeline repository](https://bitbucket.org/bbglab/boostdm/src/release/).<br>
-You can explore and download the main outputs of boostDM in the [boostDM website](https://www.intogen.org/boostdm).<br>
+You can access to boostDM-CH source code and documentation in the [boostDM-CH pipeline repository](https://github.com/bbglab/boostdm-pipeline/tree/1.0.1-ch).<br>
+You can explore and download the main outputs of boostDM-CH in the [boostDM website](https://www.intogen.org/ch/boostdm/search).<br>
 
-## Requirements
-
-#### Download source data
-
-All the code features in this repo feeds on source data. 
-
-Make sure that you download a stable copy of the source data from zenodo and keep it in the root of the repo
-from [zenodo](https://zenodo.org/) as follows:
-
-```
-$ pip install zenodo_get
-$ bash get.sh
-$ tar -xvf source-data/source-data-zenodo.tar.gz
-$ cp -r source-data/boostdm-analyses .
