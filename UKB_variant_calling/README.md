@@ -10,25 +10,24 @@ The procedure and conditions to access these datasets are detailed in the follow
 # Content
 - ```crams```: cram file's name list
 - ```part1```: variant calling for the 12 genes with boostDM models
-**- bbglab_ukbio.conf**, configuration file containing CPU and memory per subprocess
-**- cram_UKbio.txt**, cram file's name list
-**- envUKbio.yml**, conda environment
-**- minimutect_12genes.nf**, nextflow to perform variant calling
-**- nextflow.config**, nextflow configurations
-**- prepare_part1.sh**, Spcript to prepare environment in a virtual machine
-**- run.sh**, script to run nextflow script
+    - **bbglab_ukbio.conf**, configuration file containing CPU and memory per subprocess
+    - **cram_UKbio.txt**, cram file's name list
+    - **envUKbio.yml**, conda environment
+    - **minimutect_12genes.nf**, nextflow to perform variant calling
+    - **nextflow.config**, nextflow configurations
+    - **prepare_part1.sh**, Spcript to prepare environment in a virtual machine
+    - **run.sh**, script to run nextflow script
 - ```part2```: anotation and filtering
-**- bbglab_ukbio.conf**, configuration file containing CPU and memory per subprocess
-**- cram_UKbio.txt**, cram file's name bam
-**- envUKbio_part2vep.yml**, conda environment
-**- merge.sh**, script to merge final outputs
-**- nextflow.config**, nextflow configurations
-**- Nextflow_filter_ch_variants.py**, python script to filter variants
-**- Nextflow_filter_VEP_variants.py**, python script to filter variants afted VEP annotation
-**- pipe2_process_mutations.nf**, nextflow to perform annotationa and filtering
-**- prepare_part2.sh**, Spcript to prepare environment in a virtual machine
-**- run.sh**, script to run nextflow script
-**- vep.simg**, singularity image to run VEP
+    - **bbglab_ukbio.conf**, configuration file containing CPU and memory per subprocess
+    - **cram_UKbio.txt**, cram file's name bam
+    - **envUKbio_part2vep.yml**, conda environment
+    - **merge.sh**, script to merge final outputs
+    - **nextflow.config**, nextflow configurations
+    - **Nextflow_filter_ch_variants.py**, python script to filter variants
+    - **Nextflow_filter_VEP_variants.py**, python script to filter variants afted VEP annotation
+    - **pipe2_process_mutations.nf**, nextflow to perform annotationa and filtering
+    - **prepare_part2.sh**, Spcript to prepare environment in a virtual machine
+    - **run.sh**, script to run nextflow script
 - ```U2AF1```: hause-made pileup to call U2AF1 variants
 **- bbglab_ukbio.conf**, configuration file containing CPU and memory per subprocess
 **- cram_UKbio.txt**, cram file's name bam
@@ -67,6 +66,8 @@ In the prepare*.sh file includes code to download it:
     
     - **hg38_cds.canonical.overlap.gz**, list of canonical transcripts
     - **homo_sapiens_vep_101_GRCh38.tar.gz**, downloaded from ensamble_VEP https://www.ensembl.org/info/docs/tools/vep/index.html
+    - **vep.simg**, singularity image to run VEP.101 (needs to be created)
+
 
 # Pipeline 
 
