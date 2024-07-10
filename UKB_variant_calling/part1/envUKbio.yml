@@ -1,0 +1,56 @@
+name: nextflow
+channels:
+  - defaults
+  - bbglab
+  - bioconda
+  - r
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - blas=1.0=mkl
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2021.7.5=h06a4308_1
+  - certifi=2021.5.30=py38h06a4308_0
+  - coreutils=8.32=h7b6447c_0
+  - curl=7.71.1=hbc83047_1
+  - gatk4=4.2.2.0=hdfd78af_1
+  - htslib=1.9=h4da6232_3
+  - intel-openmp=2020.2=254
+  - joblib=1.0.1=pyhd3eb1b0_0
+  - krb5=1.18.2=h173b8e3_0
+  - ld_impl_linux-64=2.33.1=h53a641e_7
+  - libcurl=7.71.1=h20c2e04_1
+  - libdeflate=1.2=h516909a_1
+  - libedit=3.1.20191231=h46ee950_2
+  - libffi=3.2.1=hf484d3e_1007
+  - libgcc=7.2.0=h69d50b8_2
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libgfortran-ng=7.3.0=hdf63c60_0
+  - libssh2=1.9.0=h1ba5d50_1
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - mkl=2020.2=256
+  - mkl-service=2.3.0=py38he904b0f_0
+  - mkl_fft=1.3.0=py38h54f3939_0
+  - mkl_random=1.1.1=py38h0573a6f_0
+  - ncurses=6.1=he6710b0_1
+  - nextflow=20.10.0=hecda079_0
+  - numpy=1.19.2=py38h54aff64_0
+  - numpy-base=1.19.2=py38hfa32c7d_0
+  - openjdk=8.0.152=h7b6447c_3
+  - openssl=1.1.1l=h7f8727e_0
+  - picard=2.18.29=0
+  - pip=21.0.1=py38h06a4308_0
+  - python=3.8.1=h0371630_1
+  - readline=7.0=h7b6447c_5
+  - samtools=1.9=h10a08f8_12
+  - scikit-learn=0.24.1=py38ha9443f7_0
+  - scipy=1.6.1=py38h91f5cce_0
+  - setuptools=52.0.0=py38h06a4308_0
+  - six=1.15.0=py38h06a4308_0
+  - sqlite=3.31.1=h7b6447c_0
+  - threadpoolctl=2.1.0=pyh5ca1d4c_0
+  - tk=8.6.10=hbc83047_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3
+prefix: /home/mgrau/apps/miniconda3.7/envs/nextflow
