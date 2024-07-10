@@ -29,16 +29,16 @@ The procedure and conditions to access these datasets are detailed in the follow
     - **prepare_part2.sh**, Spcript to prepare environment in a virtual machine
     - **run.sh**, script to run nextflow script
 - ```U2AF1```: hause-made pileup to call U2AF1 variants
-**- bbglab_ukbio.conf**, configuration file containing CPU and memory per subprocess
-**- cram_UKbio.txt**, cram file's name bam
-**- run_bcftools.sh**, script to merge final outputs
-**- nextflow.config**, nextflow configurations
-**- filter_bcf_variants.py**, python script to filter variants
-**- Nextflow_filter_VEP_variants.py**, python script to filter variants afted VEP annotation
-**- minimutect_U2AF1_bcftools_VEP.nf**, nextflow to perform annotationa and filtering
-**- prepare_U2AF1.sh**, Spcript to prepare environment in a virtual machine
-**- run.sh**, script to run nextflow script
-**- u2.yml**, singularity image to run VEP
+    - **bbglab_ukbio.conf**, configuration file containing CPU and memory per subprocess
+    - **cram_UKbio.txt**, cram file's name bam
+    - **run_bcftools.sh**, script to merge final outputs
+    - **nextflow.config**, nextflow configurations
+    - **filter_bcf_variants.py**, python script to filter variants
+    - **Nextflow_filter_VEP_variants.py**, python script to filter variants afted VEP annotation
+    - **minimutect_U2AF1_bcftools_VEP.nf**, nextflow to perform annotationa and filtering
+    - **prepare_U2AF1.sh**, Spcript to prepare environment in a virtual machine
+    - **run.sh**, script to run nextflow script
+    - **u2.yml**, singularity image to run VEP
 - ```refs```: references necessary for the variant calling
 
 # Dependencies (refs folder)
@@ -56,14 +56,12 @@ In the refs folder there are the following files:
     - **somatic-hg38_small_exac_common_3.hg38_selectedCHROM.vcf.gz.tbi**: modified from https://storage.googleapis.com/gatk-best-practices/somatic-hg38/small_exac_common_3.hg38.vcf.gz.tbi
 
 3. Reference genome
-
-In the prepare*.sh file includes code to download it:
+    In the prepare*.sh file includes code to download it:
     - **Homo_sapiens_assembly38.fasta**, wget https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta
     - **Homo_sapiens_assembly38.fasta.fai**, wget https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.fai 
     - **Homo_sapiens_assembly38.dict**, wget https://storage.googleapis.com/gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.ref_cache.tar.gz
 
 4. Other resources
-    
     - **hg38_cds.canonical.overlap.gz**, list of canonical transcripts
     - **homo_sapiens_vep_101_GRCh38.tar.gz**, downloaded from ensamble_VEP https://www.ensembl.org/info/docs/tools/vep/index.html
     - **vep.simg**, singularity image to run VEP.101 (needs to be created)
