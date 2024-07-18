@@ -23,6 +23,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
 	|   | - scripts
     	| 7-Expert_curated_rules_comparison
     	| 8-UKB_analyses
+	|   | 0_Clinical_phenotypes
 	|   | 1_Post_processing_calling
 	|   |   | - polN
 	|   | 2_Mutation_overview
@@ -31,7 +32,6 @@ This repo contains the source code to reproduce the analysis and figures of the 
 	|   | 5_Rules_comparison
 	|   | 6-Fitness_analysis
 	|   | 7-New_exclusive_boostDM
-	| Clinical_phenotypes
 -UKB_variant_calling
 	| - crams
 	| - part1
@@ -123,6 +123,12 @@ This repo contains the source code to reproduce the analysis and figures of the 
       		-	*Supplemental Figure S20C*
     	-	**False_positive.ipynb**, False positive mutations from Bick et. al.
     - ```8-UKB_analyses```,
+    	- ```0_Clinical_phenotypes```,
+        	-	**cancerdata_manually.ipynb**
+        	-	**cancerdata_variables.ipynb**
+        	-	**covariates.ipynb**
+        	-	**cvddata_variables.ipynb**
+			-	**Infectiondata_variables.ipynb**
     	- ```1_Post_processing_calling```,
         	-	**Postprocessing.ipynb**
         	-	**Postprocessing_U2AF1.ipynb**
@@ -183,11 +189,10 @@ This repo contains the source code to reproduce the analysis and figures of the 
         	-	**BoostDM-CH_ALL_CHEK2_tests_VAF.ipynb**
         		-	*Supplemental Figure S21B-D*
         	-	**BoostDM-CH_ALL_CHEK2_tests.ipynb**
-        - ```Clinical_phenotypes```,
 
 
 ## Complementary content
 
 You can access to boostDM-CH source code and documentation in the [boostDM-CH pipeline repository](https://github.com/bbglab/boostdm-pipeline/tree/1.0.1-ch).<br>
-You can explore and download the main outputs of boostDM-CH in the [boostDM website](https://www.intogen.org/ch/boostdm/search).<br>
+You can explore and download the main outputs of boostDM-CH in the [boostDM-CH website](https://www.intogen.org/ch/boostdm/search).<br>
 
