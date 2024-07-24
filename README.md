@@ -4,7 +4,7 @@
 
 This repo contains the source code to reproduce the analysis and figures of the paper:
 
-> **In silico saturation mutagenesis of cancer genes**
+> **Identification of Clonal Hematopoiesis Driver Mutations through In Silico Saturation Mutagenesis**
   Santiago Demajo, Joan Enric Ramis-Zaldivar, Ferran Muinos, Miguel L Grau, Maria Andrianova, Nuria Lopez-Bigas,
   Abel Gonzalez-Perez; DOI: https://doi.org/10.1158/2159-8290.CD-23-1416
 
@@ -55,7 +55,6 @@ This repo contains the source code to reproduce the analysis and figures of the 
 	| - Intogen-Cancer
 	| - Intogen-CH
 	| - pfam
-	| - UKB_clinic_info
 ```
 
 ## Folders descriptions and allocation of jupyter-notebooks and figures:  
@@ -187,8 +186,10 @@ This repo contains the source code to reproduce the analysis and figures of the 
         		-	*Supplemental Figure S20B, D, F*
         		-	*Figure 6B-D*
         	-	**BoostDM-CH_ALL_CHEK2_tests_VAF.ipynb**
-        		-	*Supplemental Figure S21B-D*
+        		-	*Supplemental Figure S21B*
         	-	**BoostDM-CH_ALL_CHEK2_tests.ipynb**
+        		-	*Supplemental Figure S21c-D*
+
 
 
 ## Complementary content
