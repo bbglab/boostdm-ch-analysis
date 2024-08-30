@@ -43,7 +43,7 @@ This repo contains the source code to reproduce the analysis and figures of the 
 	| - BoostDM-CH
 	|   | - discovery	
 	|   | - evaluation/CH
-    	|   | - model_selection
+    |   | - model_selection
 	|   | - prediction
 	|   | - splitcv_meta/CH
 	|   | - training_meta/CH

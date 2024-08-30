@@ -46,8 +46,8 @@ In the refs folder there are the following files:
 
 1. Bed files
     - **CHgenes12_coordinates.bed'**, bed file of the coordinates of the 12 genes
-    - **U2AF1_v1.bed'**, bed file with the coordinates of U2AF1 xxxx transcript
-    - **U2AF1_v2.bed'**, bed file with the coordinates of U2AF1 xxxx transcript
+    - **U2AF1_v1.bed'**, bed file with the coordinates of U2AF1 ENST00000291552 transcript
+    - **U2AF1_v2.bed'**, bed file with the coordinates of U2AF1 ENSG00000275895 transcript
 
 2. Germline information
     - **somatic-hg38_af-only-gnomad.hg38.vcf.gz**, : https://storage.googleapis.com/gatk-best-practices/somatic-hg38/af-only-gnomad.hg38.vcf.gz
